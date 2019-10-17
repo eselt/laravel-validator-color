@@ -6,20 +6,7 @@ use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
-    /**
-     * Setup the test environment.
-     */
-    public function setUp()
-    {
-        parent::setUp();
-    }
-
-    public function tearDown()
-    {
-        parent::tearDown();
-    }
-
-    /**
+     /**
      * @param \Illuminate\Foundation\Application $app
      */
     protected function getPackageProviders($app)
