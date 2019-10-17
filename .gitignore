@@ -1,4 +1,5 @@
-build
-composer.lock
-vendor
-run.php
+/vendor
+/node_modules
+/nbproject
+/.idea
+/.phpintel
